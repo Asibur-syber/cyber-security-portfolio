@@ -1,21 +1,21 @@
-🏆 PROFESSIONAL HTTP SECURITY ASSESSMENT REPORT
+# 🏆 PROFESSIONAL HTTP SECURITY ASSESSMENT REPORT
 
-Web Protocol Analysis & Security Hardening
-
+**Web Protocol Analysis & Security Hardening**
 
 ---
 
-📋 ASSESSMENT OVERVIEW
+## 📋 ASSESSMENT OVERVIEW
 
-Item Details
-Report ID THM-HTTP-006
-Client Reference HTTP Security Audit #2025-11
-Assessor Asibur Rahaman
-Assessment Type Web Protocol Security Analysis
-Platform TryHackMe Learning Environment
-Scope HTTP/HTTPS Protocol Security
-Date November 2025
-
+| Item | Details |
+|------|---------|
+| Item | Details |
+| Report ID | THM-HTTP-006 |
+| Client Reference | HTTP Security Audit #2025-11 |
+| Assessor | Asibur Rahaman |
+| Assessment Type | Web Protocol Security Analysis |
+| Platform | TryHackMe Learning Environment |
+| Scope | HTTP/HTTPS Protocol Security |
+| Date | November 2025 |
 
 ---
 
@@ -122,15 +122,65 @@ Inspected Browser Cookies:
 
 ---
 
-📊 SECURITY VULNERABILITY MATRIX
+## 📸 Evidence Screenshots (01–09)
 
-Vulnerability Risk Level Impact Recommended Fix
-Missing CSP Header High XSS Attacks Implement Content-Security-Policy
-Permissive CORS Medium Data Exposure Restrict to specific origins
-Insecure Cookies Medium Session Hijacking Add Secure, HttpOnly, SameSite
-Missing HSTS Medium SSL Stripping Implement Strict-Transport-Security
-Exposed PUT/DELETE Low to High Data Manipulation Add proper authorization
+### 📷 Screenshot 01: TryHackMe Room Completion
+**Description:** Proof of completed HTTP-related TryHackMe room with visible completion badge and username.  
+![Screenshot 01 – Room Completion](https://i.imgur.com/H3ZQnFO.jpeg)
 
+---
+
+### 📷 Screenshot 02: Task Completion Checklist
+**Description:** All tasks completed successfully with green checkmarks.  
+![Screenshot 02 – Task List Completed](https://i.imgur.com/lRRwQV8.jpeg)
+
+---
+
+### 📷 Screenshot 03: TryHackMe Profile Progress
+**Description:** Profile view showing username and web/HTTP learning progress.  
+![Screenshot 03 – Profile Progress](https://i.imgur.com/Pfm66Bp.jpeg)
+
+---
+
+### 📷 Screenshot 04: HTTP Header Analysis via curl
+**Description:** Terminal-based HTTP response header inspection using `curl -I`.  
+![Screenshot 04 – curl Header Analysis](https://i.imgur.com/pbhOWCn.jpeg)
+
+---
+
+### 📷 Screenshot 05: Browser DevTools – Response Headers
+**Description:** HTTP response headers captured from browser DevTools (Network tab).  
+![Screenshot 05 – DevTools Headers](https://i.imgur.com/A3nvCop.jpeg)
+
+---
+
+### 📷 Screenshot 06: CORS & HTTP Methods Enumeration
+**Description:** OPTIONS request showing allowed methods and CORS configuration.  
+![Screenshot 06 – CORS & Methods](https://i.imgur.com/zjVReOh.jpeg)
+
+---
+
+### 📷 Screenshot 07: Cookie Security Inspection
+**Description:** Cookie attributes inspection (Secure, HttpOnly, SameSite).  
+![Screenshot 07 – Cookie Inspection](https://i.imgur.com/GOSQ3bL.jpeg)
+
+---
+
+### 📷 Screenshot 08: HTTP DELETE Method Test
+**Description:** API endpoint tested for DELETE method behavior in a controlled lab environment.  
+![Screenshot 08 – DELETE Method Test](https://i.imgur.com/czCfr5N.jpeg)
+
+---
+
+## 📊 SECURITY VULNERABILITY MATRIX
+
+| Vulnerability | Risk Level | Impact | Recommended Fix |
+|--------------|-----------|--------|-----------------|
+| Missing CSP Header | High | XSS Attacks | Implement Content-Security-Policy |
+| Permissive CORS | Medium | Data Exposure | Restrict to specific origins |
+| Insecure Cookies | Medium | Session Hijacking | Add Secure, HttpOnly, SameSite |
+| Missing HSTS | Medium | SSL Stripping | Implement Strict-Transport-Security |
+| Exposed PUT/DELETE | Low to High | Data Manipulation | Add proper authorization |
 
 ---
 
